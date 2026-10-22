@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<defs>
+ <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF0F3"/></linearGradient>
+ <linearGradient id="fd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E4E7EB"/><stop offset="1" stop-color="#C9CED5"/></linearGradient>
+ <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E4303A"/><stop offset="1" stop-color="#800716"/></linearGradient>
+ <linearGradient id="bh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <filter id="ps" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur in="SourceAlpha" stdDeviation="4"/><feOffset dy="3"/><feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="6"/><feOffset dx="2" dy="5"/><feComponentTransfer><feFuncA type="linear" slope=".38"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#ps)">
+ <path d="M56 8h114l58 58v164a18 18 0 0 1-18 18H56a18 18 0 0 1-18-18V26A18 18 0 0 1 56 8z" fill="url(#pg)" stroke="#C3C8CF" stroke-width="2"/>
+</g>
+<path d="M170 8v40a18 18 0 0 0 18 18h40z" fill="url(#fd)" stroke="#C3C8CF" stroke-width="2" stroke-linejoin="round"/>
+<g fill="#E21E3C">
+ <rect x="128" y="96" width="74" height="12" rx="6" opacity=".9"/>
+ <rect x="128" y="124" width="74" height="12" rx="6" opacity=".55"/>
+ <rect x="128" y="152" width="74" height="12" rx="6" opacity=".55"/>
+ <rect x="128" y="180" width="54" height="12" rx="6" opacity=".55"/>
+</g>
+<g filter="url(#sh)">
+ <rect x="4" y="116" width="108" height="108" rx="22" fill="url(#bd)"/>
+ <rect x="4" y="116" width="108" height="108" rx="22" fill="url(#bh)"/>
+</g>
+<g transform="translate(58 170) scale(.98) translate(-82 -154)"><text x="84" y="183" font-family="Segoe Script" font-weight="700" font-size="92" fill="#fff" text-anchor="middle">g</text></g>
+</svg>
